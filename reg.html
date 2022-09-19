@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="reg.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Registration</div>
+        <span style="color:red">*</span>
+        <span>: Represents mandatory to fill</span>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details"> Full Name</span>
+                    <input type="text" placeholder="enter your name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details"> Personal Email Id</span>
+                    <input type="email" placeholder="ex:myname@example.com" required>
+                </div>
+                <div class="input-box">
+                    <span class="details"> Official Email Id</span>
+                    <input type="email" placeholder="ex:firstname@yourdomain.co" required>
+                </div>
+                <div class="input-box">
+                    <span class="details"> Contact Number</span>
+                    <input type="number" placeholder="enter your contact no." required>
+                </div>
+                <div class="input-box">
+                    <span class="detail"> Alternate Contact Number</span>
+                    <input type="number" placeholder="alternate contact no." id="con" >                     
+                </div>
+                <div class="input-box">
+                    <span class="details">Date of Birth</span>
+                    <input type="date" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Age</span>
+                    <input type="number" placeholder="enter your age" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Address(Include PinCode)</span>
+                    <textarea name="address" id="address" rows="3" cols="42" placeholder="enter your address" required></textarea>
+                </div>
+                <div class="input-box">
+                    <span class="details">Password</span>
+                    <input type="password" placeholder="create a password" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Confirm Password</span>
+                    <input type="password" placeholder="enter your password" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Highest Qualification</span>
+                    <input type="text" placeholder="enter your qualification" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Date Hired</span>
+                    <input type="date" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Designation</span>
+                    <select name="pos" id="pos" required>
+                        <option value="">--Choose position--</option>
+                        <option value="Manager">Manager</option>
+                        <option value="Employee">Employee</option>
+                    </select>
+                </div>
+                <div class="input-box">
+                    <span class="details">Department</span>
+                    <select name="dep" id="dep" required>
+                        <option value="">--Choose department--</option>
+                        <option value="CSE">CSE</option>
+                        <option value="ECE">ECE</option>
+                        <option value="EEE">EEE</option>
+                        <option value="Mechanical">Mechanical</option>
+                        <option value="Civil">Civil</option>
+                        <option value="Robotics">Robotics</option>
+                        <option value="Automotive">Automotive</option>
+                        <option value="Aerospace">Aerospace</option>
+                    </select>
+                </div>
+            </div>
+            <div class="gender-details">
+                <input type="radio" name="gender" id="dot-1">
+                <input type="radio" name="gender" id="dot-2">
+                <input type="radio" name="gender" id="dot-3">
+                <span class="gender-title">Gender</span>
+                <div class="category">
+                    <label for="dot-1">
+                        <span class="dot one"></span>
+                        <span class="gender">Male</span>
+                    </label>
+                    <label for="dot-2">
+                        <span class="dot two"></span>
+                        <span class="gender">Female</span>
+                    </label>
+                    <label for="dot-3">
+                        <span class="dot three"></span>
+                        <span class="gender">Prefer not to say</span>
+                    </label>
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Register">
+            </div>
+            <footer>
+                <div style="text-align:center">Already have an account? <a href="http://127.0.0.1:5500/ProjectWork/pp2.html"> Login now</a></div>
+            </footer>
+        </form>
+    </div>
+</body>
+</html>
